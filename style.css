@@ -3,12 +3,71 @@ html {
     margin: 0;
     padding: 0;
     font-size: 18px;
-    font-family: "Helvetica Neue", serif;
+    font-family: 'Raleway', sans-serif;
     line-height: 1.5em;
 }
 
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+header {
+    background-color: #000000;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+header img{
+    float: left;
+    margin-left:20px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+
+}
+
+header nav {
+
+    margin-right:20px;
+}
+li {
+    float: right;
+    margin-right: 10px;
+}
+
+.description {
+    background-color: #DDDDDD;
+    padding-left:200px;
+    padding-right:200px;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+.description img {
+    float: left;
+    margin-right:20px;
+}
+h2 {
+    margin-top: 20px;
+}
+.description-p2 {
+    clear: both;
+}
+
+.relationship {
+    padding-left:200px;
+    padding-right:200px;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+.relationship img {
+    float: right;
+}
+
+footer{
+    clear: both;
+    text-align: center;
+    background-color: #888888;
+    padding-top:50px;
+    padding-bottom:50px;
+
 }
